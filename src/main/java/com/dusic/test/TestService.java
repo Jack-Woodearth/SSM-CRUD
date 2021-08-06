@@ -23,5 +23,7 @@ public class TestService {
         System.out.println("master test1");
         System.out.println("dfbb test1");
         System.out.println("dfbb push test1");
+        System.out.println("dfbb pull test1");
+
     }
 }
