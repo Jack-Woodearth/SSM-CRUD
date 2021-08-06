@@ -12,5 +12,13 @@ public class TestService {
         DeptService deptService = new DeptService();
         List<Department> depts = deptService.getDepts();
         System.out.println(depts);
+
+
+
+    }
+
+    @Test
+    public void test(){
+        System.out.println("hello git");
     }
 }
