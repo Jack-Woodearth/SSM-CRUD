@@ -59,7 +59,7 @@ public class EmployeeService {
 //
 //       }
         List<Employee> employees = employeeMapper.selectByExample(example);
-        if(employees.size()>0){
+        if(employees!=null&&employees.size()>0){
             return employees.get(0).getEmpId();
         }
         return -1;
